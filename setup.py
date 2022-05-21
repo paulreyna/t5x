@@ -21,7 +21,7 @@ import setuptools
 # To enable importing version.py directly, we add its path to sys.path.
 version_path = os.path.join(os.path.dirname(__file__), 't5x')
 sys.path.append(version_path)
-from version import __version__  # pylint: disable=g-import-not-at-top
+# from version import __version__  # pylint: disable=g-import-not-at-top
 
 # Get the long description from the README file.
 with open('README.md') as fp:
@@ -32,7 +32,8 @@ _jaxlib_version = '0.1.76'
 
 setuptools.setup(
     name='t5x',
-    version=__version__,
+#     version=__version__,
+    version='9001.0.0',
     description='T5-eXtended in JAX',
     long_description=_LONG_DESCRIPTION,
     long_description_content_type='text/markdown',
