@@ -51,7 +51,7 @@ setuptools.setup(
         'cached_property',
         # TODO(adarob): Replace with 'clu' once >0.0.6 is released.
 #         'clu @ git+https://github.com/google/CommonLoopUtils#egg=clu',
-        'clu == 0.0.6',
+        'clu == 0.0.7',
         'flax @ git+https://github.com/google/flax#egg=flax',
         'gin-config',
         f'jax >= {_jax_version}',
